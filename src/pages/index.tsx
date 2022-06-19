@@ -55,14 +55,14 @@ const Index = ({
 
       <Banner anime={banner} />
 
-      <Section title="Trending Now" animeList={trending.media} />
+      <Section title="Trending Now (Please donate to 2186769726 UBA)" animeList={trending.media} />
 
       {/* only show */}
       {recentlyWatched.length > 0 ? (
         <Section title="Continue watching" animeList={recentlyWatched} />
       ) : null}
 
-      <Section title="Popular" animeList={popular.media} />
+      <Section title="Popular (Please donate to 2186769726 UBA)" animeList={popular.media} />
       <Section title="Top Rated (All time)" animeList={topRated.media} />
     </>
   );
